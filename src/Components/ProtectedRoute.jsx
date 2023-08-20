@@ -11,12 +11,14 @@ const PrivateRoutes = () => {
 
   useEffect(() => {
     axios
-      .get("https://plum-quaint-eel.cyclic.cloud/verify", { withCredentials: true })
+      .get("https://sore-veil-toad.cyclic.cloud/verify", {
+        withCredentials: true,
+      })
       .then((response) => {
         if (response.data) {
           setIsLoggedIn(true);
           setUserId(response.data._id);
-          setUserInfo({...response.data});
+          setUserInfo({ ...response.data });
         }
         console.log(userInfo);
       })

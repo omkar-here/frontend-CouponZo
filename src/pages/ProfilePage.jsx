@@ -21,7 +21,7 @@ function ProfilePage() {
   const [code, setCode] = useState({
     api: `
       axios
-      .post("https://plum-quaint-eel.cyclic.cloud/coupon/verify", 
+      .post("https://sore-veil-toad.cyclic.cloud/coupon/verify", 
           {
             userId: "64a1c9e74a47fb83b59c70c1";
             couponCode: __;
@@ -44,7 +44,7 @@ function ProfilePage() {
     setCode({
       api: `
       axios
-      .post("https://plum-quaint-eel.cyclic.cloud/coupon/confirm", 
+      .post("https://sore-veil-toad.cyclic.cloud/coupon/confirm", 
           {
             userId: "64a1c9e74a47fb83b59c70c1";
             couponCode: __;
@@ -72,7 +72,7 @@ function ProfilePage() {
     setCode({
       api: `
       axios
-      .post("https://plum-quaint-eel.cyclic.cloud/coupon/verify", 
+      .post("https://sore-veil-toad.cyclic.cloud/coupon/verify", 
           {
             userId: "64a1c9e74a47fb83b59c70c1";
             couponCode: __;

@@ -29,9 +29,13 @@ function NewCoupon({ onClose }) {
     e.preventDefault();
     console.log(couponDetails);
     axios
-      .post("https://plum-quaint-eel.cyclic.cloud/coupon/coupon-gen", couponDetails, {
-        withCredentials: true,
-      })
+      .post(
+        "https://sore-veil-toad.cyclic.cloud/coupon/coupon-gen",
+        couponDetails,
+        {
+          withCredentials: true,
+        }
+      )
       .then((res) => {
         console.log(res);
         setShowToast(true);

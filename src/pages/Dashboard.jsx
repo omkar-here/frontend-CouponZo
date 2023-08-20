@@ -25,7 +25,7 @@ export const Dashboard = (props) => {
 
   function getTotalCoupons() {
     axios
-      .post("https://plum-quaint-eel.cyclic.cloud/coupon/fetchUserCoupons", {
+      .post("https://sore-veil-toad.cyclic.cloud/coupon/fetchUserCoupons", {
         userId: userInfo._id,
       })
       .then((res) => {
@@ -36,12 +36,9 @@ export const Dashboard = (props) => {
 
   function getTotalUsedCoupons() {
     axios
-      .post(
-        "https://plum-quaint-eel.cyclic.cloud/coupon/fetchRedeemedCoupons",
-        {
-          userId: userInfo._id,
-        }
-      )
+      .post("https://sore-veil-toad.cyclic.cloud/coupon/fetchRedeemedCoupons", {
+        userId: userInfo._id,
+      })
       .then((res) => {
         console.log(res.data.userCouponsCount);
         setTotalCouponsUsed(res.data.userCouponsCount);
@@ -50,7 +47,7 @@ export const Dashboard = (props) => {
 
   function getRecentOrders() {
     axios
-      .post("https://plum-quaint-eel.cyclic.cloud/coupon/fetchRecentOrders", {
+      .post("https://sore-veil-toad.cyclic.cloud/coupon/fetchRecentOrders", {
         userId: userInfo._id,
       })
       .then((res) => {
@@ -62,7 +59,7 @@ export const Dashboard = (props) => {
   function getStaticDynamicCount() {
     axios
       .post(
-        "https://plum-quaint-eel.cyclic.cloud/coupon/fetchStaticDynamicCouponsCount",
+        "https://sore-veil-toad.cyclic.cloud/coupon/fetchStaticDynamicCouponsCount",
         {
           userId: userInfo._id,
         }

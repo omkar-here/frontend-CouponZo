@@ -9,7 +9,7 @@ function OrdersPage() {
 
   useEffect(() => {
     axios
-      .post("https://plum-quaint-eel.cyclic.cloud/coupon/fetchOrders", {
+      .post("https://sore-veil-toad.cyclic.cloud/coupon/fetchOrders", {
         userId: userInfo._id,
       })
       .then((orderList) => {
@@ -21,7 +21,7 @@ function OrdersPage() {
   const fetchOrderCoupons = (orderId, index) => {
     // Modified the function parameters
     axios
-      .get("https://plum-quaint-eel.cyclic.cloud/coupon/fetchCoupons", {
+      .get("https://sore-veil-toad.cyclic.cloud/coupon/fetchCoupons", {
         params: {
           orderId: orderId,
         },

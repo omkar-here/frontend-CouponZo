@@ -28,7 +28,7 @@ function Register() {
     } else {
       console.log("here");
       axios
-        .post("https://plum-quaint-eel.cyclic.cloud/register", userData, {})
+        .post("https://sore-veil-toad.cyclic.cloud/register", userData, {})
         .then((res) => {
           const data = res.data;
           if (data.errors) {

@@ -12,7 +12,7 @@ function Register() {
   });
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://plum-quaint-eel.cyclic.cloud/register", {
+    fetch("https://sore-veil-toad.cyclic.cloud/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
