@@ -28,7 +28,7 @@ function Register() {
     } else {
       console.log("here")
       axios
-        .post("https://fine-suit-lamb.cyclic.app/register", userData, {
+        .post("https://fragile-fox-sock.cyclic.app/register", userData, {
         })
         .then((res) => {
           const data = res.data;

@@ -14,7 +14,7 @@ function Login() {
     e.preventDefault();
     console.log(userData)
     axios
-      .post("https://fine-suit-lamb.cyclic.app/login", userData, {
+      .post("https://fragile-fox-sock.cyclic.app/login", userData, {
         withCredentials: true,
       }) 
       .then((res) => {

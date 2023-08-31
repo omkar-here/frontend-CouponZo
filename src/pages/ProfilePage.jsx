@@ -21,7 +21,7 @@ function ProfilePage() {
   const [code, setCode] = useState({
     api: `
       axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/verify", 
+      .post("https://fragile-fox-sock.cyclic.app/coupon/verify", 
           {
             userId: ${userInfo._id};
             couponCode: __;
@@ -44,7 +44,7 @@ function ProfilePage() {
     setCode({
       api: `
       axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/confirm", 
+      .post("https://fragile-fox-sock.cyclic.app/coupon/confirm", 
           {
             userId: "64a1c9e74a47fb83b59c70c1";
             couponCode: __;
@@ -72,7 +72,7 @@ function ProfilePage() {
     setCode({
       api: `
       axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/verify", 
+      .post("https://fragile-fox-sock.cyclic.app/coupon/verify", 
           {
             userId: "64a1c9e74a47fb83b59c70c1";
             couponCode: __;

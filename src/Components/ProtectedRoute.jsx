@@ -11,7 +11,7 @@ const PrivateRoutes = () => {
 
   useEffect(() => {
     axios
-      .get("https://fine-suit-lamb.cyclic.app/verify", { withCredentials: true })
+      .get("https://fragile-fox-sock.cyclic.app/verify", { withCredentials: true })
       .then((response) => {
         if (response.data) {
           setIsLoggedIn(true);

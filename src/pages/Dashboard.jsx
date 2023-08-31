@@ -26,7 +26,7 @@ export const Dashboard = (props) => {
 
   function getTotalCoupons() {
     axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/fetchUserCoupons", {
+      .post("https://fragile-fox-sock.cyclic.app/coupon/fetchUserCoupons", {
         userId: userInfo._id,
       })
       .then((res) => {
@@ -37,7 +37,7 @@ export const Dashboard = (props) => {
 
   function getTotalUsedCoupons() {
     // axios
-    //   .post("https://fine-suit-lamb.cyclic.app/coupon/fetchRedeemedCouponsCount", {
+    //   .post("https://fragile-fox-sock.cyclic.app/coupon/fetchRedeemedCouponsCount", {
     //     userId: userInfo._id,
     //   })
     //   .then((res) => {
@@ -51,7 +51,7 @@ export const Dashboard = (props) => {
 
   function getRecentOrders() {
     axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/fetchRecentOrders", {
+      .post("https://fragile-fox-sock.cyclic.app/coupon/fetchRecentOrders", {
         userId: userInfo._id,
       })
       .then((res) => {
@@ -61,7 +61,7 @@ export const Dashboard = (props) => {
 
   function getStaticDynamicCount() {
     axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/fetchStaticDynamicCouponsCount", {
+      .post("https://fragile-fox-sock.cyclic.app/coupon/fetchStaticDynamicCouponsCount", {
         userId: userInfo._id,
       })
       .then((res) => {

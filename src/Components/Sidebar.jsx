@@ -113,7 +113,7 @@ function Sidebar() {
                 className="flex items-center p-2 hover:cursor-pointer text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 onClick={() => {
                   axios
-                    .post("https://fine-suit-lamb.cyclic.app/logout",{}, {
+                    .post("https://fragile-fox-sock.cyclic.app/logout",{}, {
                       withCredentials: true,
                       headers: {
                         "Content-Type": "application/json",

@@ -12,7 +12,7 @@ function Register() {
   });
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://fine-suit-lamb.cyclic.app/register", {
+    fetch("https://fragile-fox-sock.cyclic.app/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

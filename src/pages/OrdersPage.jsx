@@ -11,7 +11,7 @@ function OrdersPage() {
 
   useEffect(() => {
     axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/fetchOrders", {
+      .post("https://fragile-fox-sock.cyclic.app/coupon/fetchOrders", {
         userId: userInfo._id,
       })
       .then((orderList) => {
@@ -34,7 +34,7 @@ function OrdersPage() {
   const fetchOrderCoupons = (orderId, index) => {
     // Modified the function parameters
     axios
-      .get("https://fine-suit-lamb.cyclic.app/coupon/fetchCoupons", {
+      .get("https://fragile-fox-sock.cyclic.app/coupon/fetchCoupons", {
         params: {
           orderId: orderId,
         },

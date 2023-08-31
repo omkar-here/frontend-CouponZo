@@ -30,7 +30,7 @@ function NewCoupon(props) {
     e.preventDefault();
     console.log(couponDetails);
     axios
-      .post("https://fine-suit-lamb.cyclic.app/coupon/coupon-gen", couponDetails, {
+      .post("https://fragile-fox-sock.cyclic.app/coupon/coupon-gen", couponDetails, {
         withCredentials: true,
       })
       .then((res) => {
