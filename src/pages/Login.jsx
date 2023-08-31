@@ -5,7 +5,7 @@ import { useState } from "react";
 import {useNavigate} from 'react-router-dom';
 import axios from 'axios'
 function Login() {
-  const [userData, setUserData] = useState({ email: "", password: "" });
+  const [userData, setUserData] = useState({ email: "pizzamania@gmail.com", password: "1234567" });
   const handleLogin = (e) => {
     setUserData({ ...userData, [e.target.name]: e.target.value });
   };
