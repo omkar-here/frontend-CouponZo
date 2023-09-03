@@ -2,31 +2,34 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import logo from "../assets/login.png";
 import { useState } from "react";
-import {useNavigate} from 'react-router-dom';
-import axios from 'axios'
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 function Login() {
-  const [userData, setUserData] = useState({ email: "pizzamania@gmail.com", password: "1234567" });
+  const [userData, setUserData] = useState({
+    email: "pizzamania@gmail.com",
+    password: "1234567",
+  });
   const handleLogin = (e) => {
     setUserData({ ...userData, [e.target.name]: e.target.value });
   };
-  const navigate=useNavigate();
-  const handleSubmit= (e)=>{
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(userData)
+    console.log(userData);
     axios
       .post("https://fragile-fox-sock.cyclic.app/login", userData, {
         withCredentials: true,
-      }) 
+      })
       .then((res) => {
         console.log(res);
-       if(res.data.user){
-        navigate('/dashboard');
-       }
+        if (res.data.user) {
+          navigate("/dashboard");
+        }
       })
       .catch((err) => {
         console.log(err);
       });
-  }
+  };
   return (
     <div className="bg-white border-gray-200 dark:bg-gray-900 h-full min-h-screen dark:border-gray-700">
       <Navbar />
@@ -46,7 +49,8 @@ function Login() {
                 >
                   Your email
                 </label>
-                <input autoComplete="off"
+                <input
+                  autoComplete="off"
                   type="email"
                   name="email"
                   id="email"
@@ -63,7 +67,8 @@ function Login() {
                 >
                   Password
                 </label>
-                <input autoComplete="off"
+                <input
+                  autoComplete="off"
                   type="password"
                   name="password"
                   id="password"
@@ -76,7 +81,8 @@ function Login() {
               <div className="flex items-center justify-between">
                 <div className="flex items-start">
                   <div className="flex items-center h-5">
-                    <input autoComplete="off"
+                    <input
+                      autoComplete="off"
                       id="remember"
                       aria-describedby="remember"
                       type="checkbox"
@@ -105,7 +111,7 @@ function Login() {
                 type="submit"
                 className="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
-                Log in
+                Login or Just click to continue!
               </button>
               <p className="text-sm font-light text-gray-500 dark:text-gray-400">
                 Don’t have an account yet?{" "}

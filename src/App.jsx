@@ -21,8 +21,8 @@ import Landing from "./pages/Landing"
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route exact path="/" element={<Register />} />
-      <Route path="/login" element={<Login />} />
+      <Route exact path="/" element={<Login />} />
+      <Route path="/register" element={<Register />} />
       <Route path="/couponzo" element={<Landing />} />
       <Route
         element={
