@@ -18,7 +18,6 @@ const PrivateRoutes = () => {
           setUserId(response.data._id);
           setUserInfo({...response.data});
         }
-        console.log(userInfo);
       })
       .catch((err) => {
         console.log(err);

@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import logo from "../assets/login.png";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "../Styles/styles.css"
 import axios from "axios";
 function Login() {
   const [userData, setUserData] = useState({
@@ -13,15 +14,15 @@ function Login() {
     setUserData({ ...userData, [e.target.name]: e.target.value });
   };
   const navigate = useNavigate();
+  const [isLoginClick,setIsLoginClick]=useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(userData);
+    setIsLoginClick(true);
     axios
       .post("https://fragile-fox-sock.cyclic.app/login", userData, {
         withCredentials: true,
       })
       .then((res) => {
-        console.log(res);
         if (res.data.user) {
           navigate("/dashboard");
         }
@@ -109,9 +110,18 @@ function Login() {
               </div>
               <button
                 type="submit"
-                className="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className={`w-full text-white ${
+                  isLoginClick === true ? "bg-orange-600" : "bg-blue-600"
+                }  focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800`}
               >
-                Login or Just click to continue!
+                {isLoginClick == true ? (
+                  <div>
+                    <span>Logging In</span>
+                    <div className="dots-1 inline-block"></div>
+                  </div>
+                ) : (
+                  <div>Login or Just click to continue!</div>
+                )}
               </button>
               <p className="text-sm font-light text-gray-500 dark:text-gray-400">
                 Don’t have an account yet?{" "}

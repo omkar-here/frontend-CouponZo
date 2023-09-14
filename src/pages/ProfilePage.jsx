@@ -141,7 +141,7 @@ function ProfilePage() {
                 <strong>User Name:</strong> {userInfo.userName}
               </p>
               <p className=" text-xl">
-                <strong>Company Name:</strong> {console.log(userInfo)}
+                <strong>Company Name:</strong> 
                 {userInfo.companyName}
               </p>
               <p className=" text-xl">
@@ -224,7 +224,6 @@ function ProfilePage() {
             <div className=" bg-white w-[65%]">
               <LuCopy
                 onClick={() => {
-                  console.log(code.api);
                   handleClickCopy(code.api);
                 }}
                 className="copy-button text-3xl right-[5%] mt-5 absolute inline-block ml-3 cursor-pointer p-1 rounded-lg"

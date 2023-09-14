@@ -30,7 +30,6 @@ export const Dashboard = (props) => {
         userId: userInfo._id,
       })
       .then((res) => {
-        console.log(res.data.userCouponsCount);
         setTotalCouponsCount(res.data.userCouponsCount);
       });
   }
@@ -45,7 +44,6 @@ export const Dashboard = (props) => {
     //     console.log(res.data.totalCouponsUsed);
     //     setTotalCouponsUsed(res.data.totalCouponsUsed);
     //   });
-    console.log("Used Coupons +" ) 
     setTotalCouponsUsed(userInfo.totalCouponsUsed);
   }
 
@@ -65,7 +63,6 @@ export const Dashboard = (props) => {
         userId: userInfo._id,
       })
       .then((res) => {
-        console.log(res);
         setStaticCount(res.data.staticCount);
         setDynamicCount(res.data.dynamicCount);
       });
@@ -81,7 +78,6 @@ export const Dashboard = (props) => {
 
   return (
     <div className="flex h-full min-h-screen bg-[#f6f6f9]">
-      {console.log(userInfo)}
       {showNewCouponModal && (
         <NewCoupon
           setRefreshList={setRefreshList}

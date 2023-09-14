@@ -15,7 +15,6 @@ function OrdersPage() {
         userId: userInfo._id,
       })
       .then((orderList) => {
-        console.log(orderList?.data.result);
         setOrderList(orderList?.data.result);
         setFilteredOrderList(orderList?.data.result);
       });
@@ -62,7 +61,6 @@ function OrdersPage() {
   };
 
   const toggleAccordion = (index) => {
-    console.log(filteredOrderList[index]._id);
     fetchOrderCoupons(filteredOrderList[index]._id, index);
     setFilteredOrderList((prevOrderList) => {
       const updatedOrderList = prevOrderList.map((order, i) => {
