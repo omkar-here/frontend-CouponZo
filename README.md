@@ -1,10 +1,3 @@
-
-
-
-  
-  
-  
-  
   <a id="about"> </a>
 
 # CouponZo (Promotion Engine) 🏷️💲
@@ -209,7 +202,7 @@ information, making this a complete headless promotional engine
 
 - [Project Live Site](https://couponzoapp.netlify.app/)
 
-- [Project Complete Video Demonstration](https://youtu.be/eihEk82pWTg) (Submitted mobile app as final year project for my diploma)
+- [Complete Video Demonstration](https://youtu.be/eihEk82pWTg) (Submitted mobile app as final year project for my diploma)
 
   
   
