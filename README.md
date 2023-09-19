@@ -30,19 +30,18 @@ information, making this a complete headless promotional engine
   - [Home](#home)
   - [Login and Authentication](#auth)
   - [Dashboard](#dashboard)
-  - [Coupon Generation](#exam)
-  - [Orders Page](#face)
-  - [Profile Page](#face)
+  - [Coupon Generation](#coupon-generation-page)
+  - [Orders Page](#orders-page)
+  - [Profile Page](#profile-page)
 
 - [Tech Stack](#tech-stack)
   - [Front-end](#frontend)
   - [Backend](#backend)
-  - [Mobile App](#mobile)
   - [Other Tools](#other)
 
 - [Important Points](#imp-points)
 - [Getting Started Instructions](#instructions)
-- [Test Cases](#test-cases)
+- [Things to know](#things-to-know)
 - [Links](#links)
 - [Contact](#contact)
 
@@ -98,7 +97,7 @@ information, making this a complete headless promotional engine
            Discount Type: <strong>Fixed</strong> or <strong>Percentage</strong>
         </li>
         <li>
-           Conditions: <strong>Minumum Cart Value</strong>strong> or <strong>Minimum Cart Items</strong>
+           Conditions: <strong>Minumum Cart Value</strong> or <strong>Minimum Cart Items</strong>
         </li>
       </ul>
      
@@ -189,11 +188,17 @@ information, making this a complete headless promotional engine
 7. Navigate to frontend with these commands
    - `cd ../frontend ` (If you are in the backend directory)
    - `cd frontend` (If you are in the main directory)
+
 8. Install all the packages
 
     -  `npm install` or `npm i`
 
-  
+9. Run the frontend with this command
+
+   - `npm run dev`
+     
+10. Open `http://localhost:3000` with your browser to see the app
+   
  
 <a id="links"> </a>
 ## Useful Links
@@ -202,9 +207,7 @@ information, making this a complete headless promotional engine
 
 - [Project Live Site](https://couponzoapp.netlify.app/)
 
-- [Complete Video Demonstration](https://youtu.be/eihEk82pWTg) (Submitted mobile app as final year project for my diploma)
-
-  
+- [Complete Video Demonstration](https://youtu.be/eihEk82pWTg) (This video has everything- right from coupon creation to integration of code with the source code & redemption of coupons)
   
 <a id="contact"> </a>
 ## Need help?
