@@ -59,9 +59,8 @@ information, making this a complete headless promotional engine
 
    - [Landing Page](https://couponzoapp.netlify.app) which lists all the features of the app
   
-   <img width="1835" alt="Screenshot 2022-11-13 at 4 36 11 PM" src="https://user-images.githubusercontent.com/28570857/201518806-155ea557-79cd-4c81-948a-af9575cbff57.png">
+   <img width="1835" alt="Screenshot 2022-11-13 at 4 36 11 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/Landing%20Page.png">
 
-   <img width="1835" alt="Screenshot 2022-11-13 at 6 04 36 PM" src="https://user-images.githubusercontent.com/28570857/201521938-de2f9979-7490-471e-b6be-0642f982b700.png">
 
  
  2.  Login Page (Authentication)  <a id="auth"> </a>
@@ -70,7 +69,7 @@ information, making this a complete headless promotional engine
      - JWT tokens used to persist the authentication state
      - You can just click on the Login button to login as default User.
 
-     <img width="1835" alt="Screenshot 2022-11-13 at 4 35 42 PM" src="https://user-images.githubusercontent.com/28570857/201518738-83d0e340-9394-42c5-b0fe-6770eea2009d.png">
+     <img width="1835" alt="Screenshot 2022-11-13 at 4 35 42 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/Login%20Page.png">
   
 2. Dashboard <a id="dashboard"> </a>
 
@@ -78,7 +77,7 @@ information, making this a complete headless promotional engine
 
 	- The user can click on the Create New Order to make new coupons.
 
-    <img width="1835" alt="Screenshot 2022-11-13 at 4 37 01 PM" src="https://user-images.githubusercontent.com/28570857/201518882-8cdf77fb-25a1-4427-b3d5-d015d47a8829.png">
+    <img width="1835" alt="Screenshot 2022-11-13 at 4 37 01 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/DashBoard.png">
 
   
 3. Create New Order <a id="create-order"> </a>
@@ -100,7 +99,7 @@ information, making this a complete headless promotional engine
            Conditions: <strong>Minumum Cart Value</strong> or <strong>Minimum Cart Items</strong>
         </li>
       </ul>
-     
+ <img width="1835" alt="Create New Order" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/Create%20New%20Order.png">     
   
 4. Orders Page <a id="orders-page"> </a>
 
@@ -109,10 +108,9 @@ information, making this a complete headless promotional engine
    - The user can also view the coupon details on clicking on specific orders. The user can search for coupons of a specific using the Search Bar.
   
 
-   <img width="1835" alt="Screenshot 2022-11-13 at 5 59 55 PM" src="https://user-images.githubusercontent.com/28570857/201521732-02537090-8757-451a-9d31-49df9bd6aad3.png">
+   <img width="1835" alt="Screenshot 2022-11-13 at 5 59 55 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/All%20Orders%20Page.png">
 
-   <img width="1801" alt="Screenshot 2022-11-13 at 6 19 48 PM" src="https://user-images.githubusercontent.com/28570857/201522628-e2007a34-fe57-44cf-bc45-a6a17963ed4c.png">
-
+  
   
   
   
@@ -125,7 +123,8 @@ information, making this a complete headless promotional engine
    - The user can copy and paste the code snippet in their source code of their platform to redeem coupons seemlessly.
 
 
-  
+  <img width="1835" alt="Screenshot 2022-11-13 at 5 59 55 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/Profile%20Page-1.png">
+  <img width="1835" alt="Screenshot 2022-11-13 at 5 59 55 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/Profile%20Page-2.png">
 
       https://user-images.githubusercontent.com/28570857/205257552-5aa0235b-ddee-463a-b746-2ecc06ba8c4f.mp4
 
