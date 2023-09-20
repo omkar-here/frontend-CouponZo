@@ -125,7 +125,7 @@ information, making this a complete headless promotional engine
   <img width="1835" alt="Screenshot 2022-11-13 at 5 59 55 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/Profile%20Page-1.png">
   <img width="1835" alt="Screenshot 2022-11-13 at 5 59 55 PM" src="https://github.com/omkar-here/frontend-CouponZo/blob/main/Profile%20Page-2.png">
 
-      https://user-images.githubusercontent.com/28570857/205257552-5aa0235b-ddee-463a-b746-2ecc06ba8c4f.mp4
+ 
 
 ## Things to know
 
