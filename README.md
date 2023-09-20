@@ -18,7 +18,6 @@ information, making this a complete headless promotional engine
 
 <p  align="center">
 
-<img  src="https://user-images.githubusercontent.com/28570857/178106216-25d91b1c-06cf-42fa-85fc-cf3540868b1f.png"/>
 
 </p>
 
