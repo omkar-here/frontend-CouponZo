@@ -224,13 +224,14 @@ value or a specific product category.
 
 - [Project Live Site](https://couponzoapp.netlify.app/)
 
-- [Complete Video Demonstration](https://youtu.be/eihEk82pWTg) (This video has everything- right from coupon creation to integration of code with the source code & redemption of coupons)
+- [Complete Video Demonstration](https://youtu.be/eihEk82pWTg) <br>
+(This video has everything- right from coupon creation to integration of code with the source code & redemption of coupons)
   
 <a id="contact"> </a>
 ## Need help?
 
   
 
-Feel free to contact me on [Gmail](aomkarg2003@gmail.com) or [LinkedIn](https://www.linkedin.com/in/omkar-anabathula), 
+Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/omkar-anabathula) or at aomkarg2003@gmail.com, 
 
 
