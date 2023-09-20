@@ -144,7 +144,7 @@ customer. Each code can only be used once and is generated based on a set
 of rules or conditions defined by the merchant, such as a minimum order
 value or a specific product category.
   
-## Redemption Mechanism FlowChart & Folder Structure
+
 
 
 
