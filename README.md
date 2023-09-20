@@ -129,9 +129,26 @@ information, making this a complete headless promotional engine
 
       https://user-images.githubusercontent.com/28570857/205257552-5aa0235b-ddee-463a-b746-2ecc06ba8c4f.mp4
 
+## Things to know
+
+#### What are Static Coupons?
+
+- Static coupon codes are a type of coupon code that is pre-generated and
+can be used multiple times by different customers until the code expires or is
+deactivated. Merchants create static coupon codes with a fixed discount
+value, such as a percentage off the total purchase or a flat discount amount.
+
+#### What are Dynamic Coupons?
+
+- Dynamic coupon codes are unique, one-time use codes that are
+generated in real-time by a system and are dynamically assigned to a
+customer. Each code can only be used once and is generated based on a set
+of rules or conditions defined by the merchant, such as a minimum order
+value or a specific product category.
   
-  
-  
+## Redemption Mechanism FlowChart & Folder Structure
+
+
 
 ## Tech stack
 
@@ -197,7 +214,7 @@ information, making this a complete headless promotional engine
 
    - `npm run dev`
      
-10. Open `http://localhost:3000` with your browser to see the app
+10. Open `http://localhost:5173` with your browser to see the app
    
  
 <a id="links"> </a>
