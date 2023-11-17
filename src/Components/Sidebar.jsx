@@ -121,7 +121,7 @@ function Sidebar() {
                     })
                     .then((res) => {
                       if (res.status === 200) {
-                        router("/login");
+                        router("https://couponzoapp.netlify.app/");
                       }
                     });
                 }}
